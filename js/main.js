@@ -141,6 +141,8 @@ $(function() {
 });
 
 // Toggle FAQs
-$(".toggle-text").click(function(){
-  $("this").toggle();
+$(document).ready(function(){
+    $(".toggle-cont").click(function(){
+    $("answer").toggle();
+  });
 });
