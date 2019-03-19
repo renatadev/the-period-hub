@@ -73,3 +73,27 @@ html, body {
     background-size: cover;
     background-attachment: fixed;
   }
+
+/*------------------------------------
+                  BUTTONS
+-------------------------------------*/
+  .btn-general {
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    text-transform: uppercase;
+  }
+
+  .btn-white {
+    border-color: #fff;
+    color: #fff;
+  }
+
+  .btn-white:hover,
+  .btn-white:focus {
+    background-color: #b96bf4;
+    border-color: #b96bf4;
+    color: #fff;
+    /*opacity: 0.7;*/
+  }
