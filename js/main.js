@@ -21,12 +21,6 @@ $(document).ready(function(){
   $('.navbar').affix({offset: {top: 560} });
 });
 
-//toggle dropdowns
-
-$(document).ready(function(){
-  $(".dropdown-toggle").dropdown();
-});
-
 //Modals
 $(document).ready(function(){
   $("#myBtn").click(function(){
