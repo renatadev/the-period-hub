@@ -26,7 +26,7 @@ html, body {
 /*------------------------------------
               HOME SECTION
  -------------------------------------*/
- 
+
 #home {
   height: 100%;
 }
@@ -63,3 +63,13 @@ html, body {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
 }
+
+/*------------------------------------
+        PARALLAX EFFECT GRAL
+ -------------------------------------*/
+  .bg-parallax {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
