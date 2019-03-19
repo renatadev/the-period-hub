@@ -1,1 +1,37 @@
+/* HOME SECTION */
+#home {
+  height: 100%;
+}
 
+#home-cover {
+  height: 100%;
+  background-image:
+	  linear-gradient(to right bottom,
+     rgba(144, 114, 210, 0.7),
+     rgba(245, 235, 255, 0.7)),
+    url("../img/equality.jpg");
+  /*opacity: 0.8;
+  filter: alpha(opacity=80);
+  144, 114, 210
+  157, 146, 236,*/
+
+}
+
+#home-content-box {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#home-content-box-inner {
+  display: table-cell;
+  vertical-align: middle;
+  /*text-align: center;*/
+}
+
+#home-heading {
+  color: #fff;
+  margin: 20px 0 20px 0;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
