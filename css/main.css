@@ -200,6 +200,7 @@ html, body {
   #quotebg {
     height: 100%;
     width: 100%;
+    padding: 120px;
     background-image:
   	  linear-gradient(to right bottom,
        rgba(144, 114, 210, 0.7),
@@ -287,6 +288,12 @@ html, body {
   @media (max-width: 768px) {
     #home-heading h1 {
       font-size: 250%;
+    }
+    #quotebg h1 {
+      font-size: 150%;
+    }
+    #quotebg {
+      padding: 60px;
     }
     .pfooter {
       max-width: 100px;
