@@ -131,3 +131,45 @@ html, body {
 #home-btn {
   animation-delay: .8s;
 }
+
+
+/*------------------------------------
+                 NAVBAR
+-------------------------------------*/
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #b96bf4;
+}
+
+.nav .navbar-nav .navbar-right li a:hover {
+  color: white;
+  background-color: #b96bf4;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #b96bf4;
+}
+
+.fa-search {
+  color: #b96bf4;
+}
+.navbar-btn {
+  background: #fff;
+  padding-left: 0;
+}
+/*------------------------------------
+              NAVBAR FIXED
+ -------------------------------------*/
+
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
