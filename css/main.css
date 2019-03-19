@@ -112,3 +112,22 @@ html, body {
   .down-arr:hover {
     color: #fff;
   }
+
+/*------------------------------------
+              HOME ANIMATION
+-------------------------------------*/
+
+#home-cover, #home-heading, #home-btn {
+  animation-duration: .5s;
+}
+#home-cover {
+  animation-delay: .1s;
+}
+
+#home-eading {
+  animation-delay: .5s;
+}
+
+#home-btn {
+  animation-delay: .8s;
+}
