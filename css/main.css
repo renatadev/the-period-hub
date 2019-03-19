@@ -173,3 +173,41 @@ html, body {
   .affix + .container-fluid {
       padding-top: 70px;
   }
+
+/*------------------------------------
+                GENERAL CONTENT
+-------------------------------------*/
+
+  .content-box {
+    padding: 60px 0 40px 0;
+  }
+
+  .content-title {
+    margin: 0 0 60px 0;
+  }
+
+  .content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #b96bf4;
+    margin: 0px auto 0 auto;
+  }
+
+  /*------------------------------------
+                QUOTE
+  -------------------------------------*/
+
+  #quotebg {
+    height: 100%;
+    width: 100%
+    background-image:
+  	  linear-gradient(to right bottom,
+       rgba(144, 114, 210, 0.7),
+       rgba(245, 235, 255, 0.7)),
+      url("../img/period-ain.jpg");
+      background-size: cover;
+    }
+
+  #quotebg h1{
+    color: white;
+  }
