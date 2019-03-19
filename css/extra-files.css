@@ -17,9 +17,12 @@ purple color: #9f5cdb
 /*------------------------------------
         ABOUT FILE STYLES
 --------------------------------------*/
+#about-heading h1 {
+  font-size: 400%;
+}
 
 #about {
-  height: 60%;
+  height: 100%;
 }
 
 #about-cover {
