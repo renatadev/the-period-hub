@@ -6,7 +6,27 @@ font-family: 'Lato', sans-serif; - body
 purple color: #9f5cdb
 --------------------------------------*/
 
-/* HOME SECTION */
+/*------------------------------------
+              GENERAL CSS
+ -------------------------------------*/
+html, body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+#home-heading h1 {
+  font-size: 400%;
+}
+
+.padding {
+  padding: 10px 0px;
+  padding-bottom: 20px;
+}
+
+/*------------------------------------
+              HOME SECTION
+ -------------------------------------*/
+ 
 #home {
   height: 100%;
 }
