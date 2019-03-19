@@ -139,3 +139,8 @@ mytitle.attr('name', mytitle.attr('title')); // add title attribute value to NAM
 $(function() {
    new WOW().init();//animation on scroll
 });
+
+// Toggle FAQs
+$(".toggle-text").click(function(){
+  $("this").toggle();
+});
