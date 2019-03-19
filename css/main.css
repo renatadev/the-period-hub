@@ -1,4 +1,32 @@
-/* HOME SECTION */
+/*------------------------------------
+              FONTS
+font-family: 'Roboto', sans-serif; - titles
+font-family: 'Lato', sans-serif; - body
+              COLORS
+purple color: #9f5cdb
+--------------------------------------*/
+
+/*------------------------------------
+              GENERAL CSS
+ -------------------------------------*/
+html, body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+#home-heading h1 {
+  font-size: 400%;
+}
+
+.padding {
+  padding: 10px 0px;
+  padding-bottom: 20px;
+}
+
+/*------------------------------------
+              HOME SECTION
+ -------------------------------------*/
+
 #home {
   height: 100%;
 }
@@ -35,3 +63,244 @@
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
 }
+
+/*------------------------------------
+        PARALLAX EFFECT GRAL
+ -------------------------------------*/
+  .bg-parallax {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+/*------------------------------------
+                  BUTTONS
+-------------------------------------*/
+  .btn-general {
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    text-transform: uppercase;
+  }
+
+  .btn-white {
+    border-color: #fff;
+    color: #fff;
+  }
+
+  .btn-white:hover,
+  .btn-white:focus {
+    background-color: #b96bf4;
+    border-color: #b96bf4;
+    color: #fff;
+    /*opacity: 0.7;*/
+  }
+
+
+/*------------------------------------
+                DOWN ARROW
+-------------------------------------*/
+  .down-arr {
+    font-size: 2rem;
+    padding: 0 20px 20px 20px;
+    z-index: 1;
+    color: #fff;
+  }
+
+  .down-arr:hover {
+    color: #fff;
+  }
+
+/*------------------------------------
+              HOME ANIMATION
+-------------------------------------*/
+
+#home-cover, #home-heading, #home-btn {
+  animation-duration: .5s;
+}
+#home-cover {
+  animation-delay: .1s;
+}
+
+#home-eading {
+  animation-delay: .5s;
+}
+
+#home-btn {
+  animation-delay: .8s;
+}
+
+
+/*------------------------------------
+                 NAVBAR
+-------------------------------------*/
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #b96bf4;
+}
+
+.nav .navbar-nav .navbar-right li a:hover {
+  color: white;
+  background-color: #b96bf4;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #b96bf4;
+}
+
+.fa-search {
+  color: #b96bf4;
+}
+.navbar-btn {
+  background: #fff;
+  padding-left: 0;
+}
+/*------------------------------------
+              NAVBAR FIXED
+ -------------------------------------*/
+
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+/*------------------------------------
+                GENERAL CONTENT
+-------------------------------------*/
+
+  .content-box {
+    padding: 60px 0 40px 0;
+  }
+
+  .content-title {
+    margin: 0 0 60px 0;
+  }
+
+  .content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #b96bf4;
+    margin: 0px auto 0 auto;
+  }
+
+  /*------------------------------------
+                QUOTE
+  -------------------------------------*/
+
+  #quotebg {
+    height: 100%;
+    width: 100%
+    background-image:
+  	  linear-gradient(to right bottom,
+       rgba(144, 114, 210, 0.7),
+       rgba(245, 235, 255, 0.7)),
+      url("../img/period-ain.jpg");
+      background-size: cover;
+    }
+
+  #quotebg h1{
+    color: white;
+  }
+
+
+/*------------------------------------
+                FOOTER
+-------------------------------------*/
+
+  footer {
+    width: 100%;
+    height: 100%;
+    background:
+  	  linear-gradient(to right bottom,
+       rgba(144, 114, 210, 0.7),
+       rgba(245, 235, 255, 0.7));
+    /*padding: 5% 5% 10% 5%;*/
+    color: #FFF;
+    margin: 0;
+  }
+
+  footer p {
+    color: gray;
+  }
+
+  .pfooter {
+    font-size: 5px;
+  }
+
+  .fab,
+  .far,
+  .fas {
+    padding: 15px;
+    font-size: 25px;
+    color: #FFF;
+  }
+  .fab:hover,
+  .far:hover,
+  .fas:hover {
+    color: #FFF;
+    text-decoration: none;
+  }
+  .icon {
+    max-width: 300px;
+    padding-top: 5%;
+  }
+  .cfg-logo {
+    max-width: 130px;
+  }
+
+  .pfooter {
+    max-width: 100px;
+    font-size: 16px;
+    padding: 2px;
+  }
+
+/*------------------------------------
+                FOOTER ICONS
+-------------------------------------*/
+  .purple {
+    color: #9f5cdb;
+  }
+
+  .fab,
+  .far,
+  .fas {
+    color: #9f5cdb;
+  }
+
+  abbr {
+      position: relative;
+  }
+
+/*------------------------------------
+                MEDIA QUERIES
+-------------------------------------*/
+  @media (max-width: 768px) {
+    #home-heading h1 {
+      font-size: 250%;
+    }
+    .pfooter {
+      max-width: 100px;
+      font-size: 16px;
+      padding: 0px;
+    }
+    .fab,
+    .far,
+    .fas {
+      font-size: 10px;
+      padding: 10px;
+    }
+    .icon {
+      padding-top: 5%;
+      max-width: 160px;
+    }
+  }
