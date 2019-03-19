@@ -12,6 +12,7 @@ purple color: #9f5cdb
 html, body {
   height: 100%;
   font-family: 'Lato', sans-serif;
+  color: black;
 }
 
 #home-heading h1 {
