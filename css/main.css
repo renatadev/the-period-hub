@@ -280,3 +280,27 @@ html, body {
   abbr {
       position: relative;
   }
+
+/*------------------------------------
+                MEDIA QUERIES
+-------------------------------------*/
+  @media (max-width: 768px) {
+    #home-heading h1 {
+      font-size: 250%;
+    }
+    .pfooter {
+      max-width: 100px;
+      font-size: 16px;
+      padding: 0px;
+    }
+    .fab,
+    .far,
+    .fas {
+      font-size: 10px;
+      padding: 10px;
+    }
+    .icon {
+      padding-top: 5%;
+      max-width: 160px;
+    }
+  }
