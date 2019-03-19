@@ -97,3 +97,18 @@ html, body {
     color: #fff;
     /*opacity: 0.7;*/
   }
+
+
+/*------------------------------------
+                DOWN ARROW
+-------------------------------------*/
+  .down-arr {
+    font-size: 2rem;
+    padding: 0 20px 20px 20px;
+    z-index: 1;
+    color: #fff;
+  }
+
+  .down-arr:hover {
+    color: #fff;
+  }
