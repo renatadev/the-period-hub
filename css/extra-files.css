@@ -88,6 +88,16 @@ purple color: #9f5cdb
 }
 */
 
+#about-renata .fab,
+#about-joanna .fab {
+  margin: 0 0 0 28px;
+}
+
+#about-renata .fab:hover,
+#about-joanna .fab:hover {
+  color: #f781f9;
+}
+
 #about-renata img {
   max-width: 300px;
   margin-top: 80px;
