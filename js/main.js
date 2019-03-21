@@ -146,3 +146,14 @@ $(document).ready(function(){
     $("answer").toggle();
   });
 });
+
+//Sponsors carousel
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+  items: 1,
+  autoplay: true;
+  smartSpeed: 760,
+  loop: true,
+  autoplayPowerPause: true
+  });
+});

@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="css/extra-files.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -203,11 +205,29 @@
 
 <section id="our-sponsors">
   <div class="padding">
-    <div class="content-box">
-      <div class="container text-center">
-        <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-          <h1>Our Sponsors</h1>
-          <div class="content-title-underline"></div>
+    <div id="sponsor-cover">
+      <div class="content-box">
+        <div class="container text-center">
+          <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+            <h1>Our Sponsors</h1>
+            <div class="content-title-underline"></div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div id="sposors owl-carousel owl-theme">
+
+                <div class="sponsor owl-carousel">
+                  <img src="img/pa.png" class="img-responsive center-block" alt="PA Consulting">
+                </div>
+
+                <div class="sponsor owl-carousel">
+                  <img src="img/cfg-logo.png" class="img-responsive center-block" alt="CodeFirst:Girls">
+                </div>
+
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -247,5 +267,8 @@
       </footer>
     </section>
 
+    <!-- carousel jQuery-->
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
 </body>
 </html>
