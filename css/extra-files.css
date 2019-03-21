@@ -68,3 +68,31 @@ purple color: #9f5cdb
 
 #about-heading {
   animation-delay: .5s;
+}
+
+/* ABOUT US */
+/*
+#about-content-box {
+  float: left;
+  height: 700px;
+}
+
+#about-content-box-outer {
+  width: 100%;
+  height: 100%;
+}
+
+#about-content-box-outer {
+  display: table-cell;
+  vertical-align: middle;
+}
+*/
+
+#about-renata img {
+  max-width: 300px;
+  margin-top: 80px;
+}
+
+#about-joanna img {
+  max-width: 300px;
+}
