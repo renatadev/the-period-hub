@@ -108,6 +108,7 @@
 <!-- Allies -->
 
 <section id="partners">
+ <div id="projects-cover">
   <div class="padding">
     <div class="content-box">
       <div class="container text-center">
@@ -115,49 +116,49 @@
           <h2>Our Partners</h2>
           <div class="content-title-underline"></div>
         </div>
-        <p class="lead wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Our global partners are pushing for period justice everywhere but he protest is in our hands.
+        <p class="lead wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Our global partners are pushing for period justice everywhere but the protest is in our hands.
           Get to know them a little bit more plus follow and support their work here:
         </p>
       </div>
     </div>
 
     <!--caousel or cards of the projects...-->
-<div class="padding">
   <div id="projects" class="container text-center">
     <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-        <div class="col-md-6">
-          <h3 id="#red-box">The Red Box Project</h3>
-          <div class="content-title-underline"></div><br>
-          <a href="http://redboxproject.org/" target="_blank">
-            <img class="img-responsive center-block" src="img/RED-BOX-LOGO-logo-v2.jpg"></img>
-          </a>
-        </div>
-          <div class="col-md-6">
-            <h3 id="bloody-good">Bloody Good Period</h3>
-            <div class="content-title-underline"></div><br>
-            <a href="http://bloodygoodperiod.com" target="_blank">
-              <img class="img-responsive center-block" src="img/BGP-2-.png"></img>
-            </a>
-          </div>
-        </div>
-      <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-          <div class="col-md-6">
-            <h3 id="homeless">The Homeless Period</h3>
-            <div class="content-title-underline"></div><br>
-              <a href="https://www.homelessperiodproject.org/" target="_blank">
-                <img class="img-responsive center-block" src="img/hlogo.png"></img>
-              </a>
-          </div>
-          <div class="col-md-6">
-            <h3 id="free-periods">#FreePeriods</h3>
-            <div class="content-title-underline"></div><br>
-              <a href="https://www.freeperiods.org/" target="_blank">
-                <img class="img-responsive center-block" src="img/FreePeriods.png"></img>
-              </a>
-          </div>
-        </div>
+
+
+      <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <a href="http://redboxproject.org/" target="_blank"> <img src="img/RED-BOX-LOGO-logo-v2.jpg" style="width:60%"> </a>
       </div>
-    </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <a href="http://bloodygoodperiod.com" target="_blank"> <img src="img/BGP-2-.png"></a>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <a href="https://www.homelessperiodproject.org/" target="_blank"> <img src="img/hlogo.png"> </a>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <a href="https://www.freeperiods.org/" target="_blank"><img class="img-responsive center-block" src="img/FreePeriods.png"  style="width:60%"> </a>
+      </div>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
   </div>
 </section>
 
@@ -244,6 +245,28 @@
   </footer>
 </section>
 
+<!-- Projects carousel JS  -->
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
 <!-- Donate button at the bottom of page -->
 
   <script src="https://form.jotformeu.com/cardforms/feedbackEmbedButton.min.js"></script>
