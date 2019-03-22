@@ -214,18 +214,6 @@ html, body {
     color: white;
   }
 
-/*projects */
-
-.project-icon {
-    padding: 5px;
-    width: 200px;
-    height: 200px;
-    background-image:
-  	  linear-gradient(to right bottom,
-       rgba(144, 114, 210, 0.7),
-       rgba(245, 235, 255, 0.7));
-    opacity: 0.8;
-}
 
 /*------------------------------------
                 FOOTER
