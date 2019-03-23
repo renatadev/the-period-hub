@@ -210,6 +210,10 @@ html, body {
     background-color: #b96bf4;
     margin: 0px auto 0 auto;
   }
+
+a {
+    color: #b96bf4;
+  }
   /*------------------------------------
                 QUOTE
   -------------------------------------*/

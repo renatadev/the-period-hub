@@ -180,3 +180,31 @@ $(function () {
     }
   });
 });
+
+// Toggle faqs
+$(document).ready(function(){
+  $("#show1").click(function(){
+    $(".answer1").toggle("slide");
+  });
+  $("#show2").click(function(){
+    $(".answer2").toggle("slide");
+  });
+  $("#show3").click(function(){
+    $(".answer3").toggle("slide");
+  });
+  $("#show4").click(function(){
+    $(".answer4").toggle("slide");
+  });
+  $("#show5").click(function(){
+    $(".answer5").toggle("slide");
+  });
+  $("#show6").click(function(){
+    $(".answer6").toggle("slide");
+  });
+  $("#show7").click(function(){
+    $(".answer7").toggle("slide");
+  });
+  $("#show8").click(function(){
+    $(".answer8").toggle("slide");
+  });
+});
