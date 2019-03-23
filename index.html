@@ -210,24 +210,25 @@
 </section>
 
 <!-- Newsletter button -->
-<button class="open-button center-block" onclick="openForm()">Subscribe to our Newsletter</button>
+<section id="newsletter">
+  <div class="padding">
+    <button class="open-button center-block" onclick="openForm()">Subscribe to our Newsletter</button>
+      <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Newsletters</h1>
 
-<div class="form-popup" id="myForm">
-  <form action="/action_page.php" class="form-container">
-    <h1>Newsletters</h1>
+        	<label for="name"><b>Name</b></label>
+          <input type="text" placeholder="Enter Name" name="name" required>
 
-  	<label for="name"><b>Name</b></label>
-    <input type="text" placeholder="Enter Name" name="name" required>
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
-
-
-
-    <button type="submit" class="btn">Subscribe</button>
-    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-  </form>
-</div> </br></br></br>
+          <button type="submit" class="btn">Subscribe</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+  </div>
+</section> </br></br>
 
 
 <!-- Footer -->
