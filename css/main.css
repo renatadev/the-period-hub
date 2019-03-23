@@ -47,6 +47,7 @@ html, body {
   filter: alpha(opacity=80);
   144, 114, 210
   157, 146, 236,*/
+  background-size: cover;
 
 }
 
@@ -400,6 +401,7 @@ a {
     filter: alpha(opacity=80);
     144, 114, 210
     157, 146, 236,*/
+    background-size: cover;
 
   }
 
@@ -469,6 +471,7 @@ a {
     filter: alpha(opacity=80);
     144, 114, 210
     157, 146, 236,*/
+    background-size: cover;
 
   }
 
@@ -486,7 +489,7 @@ a {
     filter: alpha(opacity=80);
     144, 114, 210
     157, 146, 236,*/
-
+    background-size: cover;
   }
 
 
@@ -500,6 +503,7 @@ linear-gradient(to right bottom,
  rgba(144, 114, 210, 0.7),
  rgba(245, 235, 255, 0.7)),
 url("../img/w.jpg");
+background-size: cover;
 }
 
 #stats {

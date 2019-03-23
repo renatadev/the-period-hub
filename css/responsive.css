@@ -9,9 +9,23 @@
 
 /* Medium Devices */
 @media (min-width: 992px) and (max-width: 1199px) {
-  #home-cover {
+  #home-cover,
+  #about-cover,
+  #projects-cover,
+  #faqs-cover,
+  #stats-cover {
     width: 100%;
     height: 100%;
+    background-size: cover;
+  }
+  #quote-bg {
+    width: 100%;
+    height: 450px;
+  }
+  #about-heading h1,
+  #projects-cover h1,
+  #faqs-cover h1 {
+    font-size: 150%;
   }
 }
 
@@ -20,12 +34,14 @@
   #home-cover,
   #about-cover,
   #projects-cover,
+  #stats-cover,
   #faqs-cover {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
+    background-size: cover;
   }
   #quote-bg {
-    width: 100%;
+    width: 50%;
     height: 450px;
   }
   #about-heading h1,
@@ -69,8 +85,8 @@
   #about-cover,
   #projects-cover,
   #faqs-cover {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
   }
   #quote-bg {
     width: 100%;
