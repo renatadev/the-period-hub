@@ -1,3 +1,55 @@
 /*------------------------------------
-      RESPONSIVE MQ BOOTSTRAP
+      BOOTSTRAP 3 MEDIA QUERIES
 -------------------------------------*/
+/* Large Devices */
+@media (min-widht: 1200px) {
+  /* OK */
+}
+
+/* Medium Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #home-cover {
+    width: 100%;
+  }
+}
+
+/* Small Devices */
+@media (min-width: @screen-sm-min) {
+  #home-cover,
+  #about-cover,
+  #projects-cover,
+  #faqs-cover {
+    width: 100%;
+  }
+  #quote-bg {
+    width: 100%;
+    height: 450px;
+  }
+  #about-heading h1,
+  #projects-cover h1,
+  #faqs-cover h1 {
+    font-size: 150%;
+  }
+}
+
+@media (max-width: @screen-xs-max) {
+  #home-cover,
+  #about-cover,
+  #projects-cover,
+  #faqs-cover {
+    width: 100%;
+  }
+  #quote-bg {
+    width: 100%;
+    height: 300px;
+  }
+  #about-heading h1,
+  #projects-cover h1,
+  #faqs-cover h1 {
+    font-size: 150%;
+  }
+  #about-renata img,
+  #about-joanna img {
+    max-width: 180px;
+  }
+}

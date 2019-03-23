@@ -15,10 +15,6 @@ html, body {
   color: black;
 }
 
-#home-heading h1 {
-  font-size: 400%;
-}
-
 .padding {
   padding: 10px 0px;
   padding-bottom: 20px;
@@ -30,6 +26,14 @@ html, body {
 
 #home {
   height: 100%;
+}
+
+#home-heading h1 {
+  font-size: 400%;
+}
+
+#home-heading p {
+  font-size: 130%;
 }
 
 #home-cover {
@@ -468,7 +472,7 @@ html, body {
     157, 146, 236,*/
 
   }
-  
+
   /*------------------------------------
           PROJECTS CAROUSEL
   -------------------------------------*/
