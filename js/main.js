@@ -18,7 +18,7 @@ $(window).on('scroll', function() {
 
 // Navbar fixed
 $(document).ready(function(){
-  $('.navbar').affix({offset: {top: 560} });
+  $('.navbar').affix({offset: {top: 500} });
 });
 
 //Modals

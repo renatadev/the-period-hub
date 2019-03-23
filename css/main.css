@@ -180,6 +180,12 @@ html, body {
       padding-top: 70px;
   }
 
+
+  /* MODAL */
+  #myModal {
+    background: transparent;
+  }
+
 /*------------------------------------
                 GENERAL CONTENT
 -------------------------------------*/
@@ -532,35 +538,4 @@ html, body {
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
-  }
-
-
-/*------------------------------------
-                MEDIA QUERIES
--------------------------------------*/
-  @media (max-width: 768px) {
-    #home-heading h1 {
-      font-size: 250%;
-    }
-    #quotebg h1 {
-      font-size: 150%;
-    }
-    #quotebg {
-      padding: 60px;
-    }
-    .pfooter {
-      max-width: 100px;
-      font-size: 16px;
-      padding: 0px;
-    }
-    .fab,
-    .far,
-    .fas {
-      font-size: 20px;
-      padding: 10px;
-    }
-    .icon {
-      padding-top: 5%;
-      max-width: 160px;
-    }
   }
