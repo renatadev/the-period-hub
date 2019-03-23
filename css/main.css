@@ -489,6 +489,27 @@ a {
 
   }
 
+
+  /*------------------------------------
+                STATS
+  -------------------------------------*/
+
+#stats-cover {
+background-image:
+linear-gradient(to right bottom,
+ rgba(144, 114, 210, 0.7),
+ rgba(245, 235, 255, 0.7)),
+url("../img/w.jpg");
+}
+
+#stats {
+  color: #fff;
+}
+
+#stats .fas {
+  font-size: 40px;
+  padding: 10px;
+}
   /*------------------------------------
           PROJECTS CAROUSEL
   -------------------------------------*/
