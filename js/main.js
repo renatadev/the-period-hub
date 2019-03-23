@@ -208,3 +208,11 @@ $(document).ready(function(){
     $(".answer8").toggle("slide");
   });
 });
+
+// Counter
+jQuery(document).ready(function ($) {
+  $('.counter').counterUp({
+    delay: 10,
+    time: 2000
+  });
+});
