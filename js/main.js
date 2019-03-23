@@ -155,3 +155,28 @@ function openForm() {
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
+
+// Smooth Scrolling
+$(function () {
+  $("a.smooth-scroll").click(function(event) {
+    event.preventDefault();
+
+    // return section id e.g. #contact...
+    var section = $(this).attr("href");
+
+    $("html, body").animate({
+      scrollTop: $(section).offset().top
+    }, 1250);
+  });
+});
+
+// Back to top button
+$(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() < 50) {
+      $("#back-to-top").fadeOut();
+    } else {
+      $("#back-to-top").fadeIn();
+    }
+  });
+});
