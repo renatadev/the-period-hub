@@ -111,6 +111,10 @@ html, body {
   display: none;
 }
 
+#myBtn {
+  background: transparent;
+}
+
 /*------------------------------------
                 DOWN ARROW
 -------------------------------------*/
