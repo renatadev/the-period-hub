@@ -568,7 +568,7 @@ url("../img/w.jpg");
 
 /* thank you style */
 
-a {
+#thankyou a {
     color: black;
   }
   /* On smaller screens, decrease text size */
