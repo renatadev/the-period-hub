@@ -12,3 +12,5 @@ to finally tackle the period poverty by the end of 2019 with your donations.
 
 This project was born as a result of developing a website as final project for **CodeFirst:Girls** 
 by *Joanna Zamarbide* and *Renata Guerra.*
+
+You can access The Period Hub website by clicking [here.](https://renatajarmova.github.io/the-period-hub/index.html)
